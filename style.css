@@ -93,8 +93,8 @@ button:hover{
   background-color: var(--clr-green-700);
 }
 .cart{
-  height:20px;
-  width: 20px;
+  height:16px;
+  width: 16px;
 }
 @media(max-width:375px){
   .container{
