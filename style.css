@@ -74,6 +74,7 @@ font-size: 32px;
   text-decoration: line-through;
   font-family: 'Montserrat';
   font-weight: 500;
+  color:var(--clr-neutral-grey)
 }
 button{
   background-color: var(--clr-green-500);
