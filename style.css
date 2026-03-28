@@ -1,0 +1,117 @@
+:root {
+--clr-green-500:hsl(158, 36%, 37%);
+--clr-green-700:hsl(158, 42%, 18%);
+--clr-neutral-black:hsl(212, 21%, 14%);
+--clr-neutral-grey:hsl(228, 12%, 48%);
+--clr-neutral-cream:hsl(30, 38%, 92%);
+--clr-neutral-white:hsl(0, 0%, 100%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: var(--clr-neutral-cream);
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+width:570px;
+height:440px;
+background-color:var(--clr-neutral-white) ;
+display: grid;
+grid-template-columns: 1fr 1fr;
+border-radius: 16px;
+gap: 30px;
+overflow: hidden;
+padding-right: 20px;
+
+}
+.product{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.image-container{
+  background-image: url('./src/assets/image-product-desktop.jpg');
+  background-size: cover;
+  height: 100%;
+  width:100%;
+ 
+}
+h1{
+  font-family: 'Fraunces';
+  font-weight:700 ;
+  font-size: 34px;
+  margin-bottom: 1.5rem;
+}
+p{
+  font-weight: 500;
+  font-family: 'Montserrat';
+  margin-bottom: 1.5rem;
+  color: var(--clr-neutral-grey);
+  font-size: 14px;
+}
+.price{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.discount-price{
+color: var(--clr-green-700);
+font-family: 'Fraunces';
+font-weight: 700;
+font-size: 32px;
+}
+.actual-price{
+  text-decoration: line-through;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+button{
+  background-color: var(--clr-green-500);
+  border: none;
+  height:36px ;
+  color:var(--clr-neutral-white);
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 1rem;
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+button:hover{
+  background-color: var(--clr-green-700);
+}
+.cart{
+  height:20px;
+  width: 20px;
+}
+@media(max-width:375px){
+  .container{
+    display: block;
+    height: auto;
+    margin: 10px 10px;
+    padding: 0;
+  }
+  .image-container{
+    background-image: url('./src/assets/image-product-mobile.jpg');
+    background-size: cover;
+    height: 375px;
+    width: 375px;
+    
+  }
+  .article{
+    padding: 10px 10px;
+  }
+}
+
