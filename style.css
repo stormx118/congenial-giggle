@@ -21,7 +21,7 @@ body{
 }
 .container{
 width:570px;
-height:430px;
+height:420px;
 background-color:var(--clr-neutral-white) ;
 display: grid;
 grid-template-columns: 1fr 1fr;
