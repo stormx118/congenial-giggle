@@ -58,6 +58,7 @@ p{
   margin-bottom: 1.5rem;
   color: var(--clr-neutral-grey);
   font-size: 14px;
+  line-height:1rem;
 }
 .price{
   display: flex;
