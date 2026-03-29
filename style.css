@@ -65,9 +65,9 @@ p{
   gap: 15px;
 }
 .discount-price{
-color: var(--clr-green-700);
+color: var(--clr-green-500);
 font-family: 'Fraunces';
-font-weight: 500;
+font-weight: 700;
 font-size: 32px;
 }
 .actual-price{
