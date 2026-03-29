@@ -20,7 +20,7 @@ body{
   align-items: center;
 }
 .container{
-width:580px;
+width:570px;
 height:450px;
 background-color:var(--clr-neutral-white) ;
 display: grid;
